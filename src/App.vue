@@ -10,7 +10,8 @@
     <!-- <DataBinding /> -->
     <!-- <Props /> -->
     <!-- <ChildToParent /> -->
-    <LifeCycleMethod />
+    <!-- <LifeCycleMethod /> -->
+    <ForFormData />
   </div>
 </template>
 
@@ -23,7 +24,8 @@
 // import DataBinding from './components/DataBinding'
 // import Props from './components/Props'
 // import ChildToParent from './components/ChildTOParent'
-import LifeCycleMethod from './components/LifeCycleMethods'
+// import LifeCycleMethod from './components/LifeCycleMethods'
+import ForFormData from './components/FormWithCheckbox'
 export default {
   name: 'App',
   components: {
@@ -35,7 +37,8 @@ export default {
     // DataBinding,
     // Props,
     // ChildToParent,
-    LifeCycleMethod
+    // LifeCycleMethod,
+    ForFormData
   }
 }
 </script>
