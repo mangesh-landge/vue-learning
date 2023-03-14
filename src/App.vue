@@ -4,7 +4,8 @@
     <!-- <Home /> -->
     <!-- <Home data="Mangesh is here" msg="Hi from Mangesh" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <Composition />
+    <!-- <Composition /> -->
+    <Template />
 
   </div>
 </template>
@@ -12,14 +13,16 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import Home from './components/Home.vue'
-import Composition from './components/Composition'
+// import Composition from './components/Composition'
+import Template from './components/Template'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     // Home,
-    Composition
+    // Composition,
+    Template
   }
 }
 </script>
