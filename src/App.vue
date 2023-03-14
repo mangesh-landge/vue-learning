@@ -11,7 +11,8 @@
     <!-- <Props /> -->
     <!-- <ChildToParent /> -->
     <!-- <LifeCycleMethod /> -->
-    <ForFormData />
+    <!-- <ForFormData /> -->
+    <GetFormData />
   </div>
 </template>
 
@@ -25,7 +26,8 @@
 // import Props from './components/Props'
 // import ChildToParent from './components/ChildTOParent'
 // import LifeCycleMethod from './components/LifeCycleMethods'
-import ForFormData from './components/FormWithCheckbox'
+// import ForFormData from './components/FormWithCheckbox'
+import GetFormData from './components/GetFormData'
 export default {
   name: 'App',
   components: {
@@ -38,7 +40,8 @@ export default {
     // Props,
     // ChildToParent,
     // LifeCycleMethod,
-    ForFormData
+    // ForFormData,
+    GetFormData
   }
 }
 </script>
