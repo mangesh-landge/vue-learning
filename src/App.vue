@@ -5,8 +5,8 @@
     <!-- <Home data="Mangesh is here" msg="Hi from Mangesh" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <Composition /> -->
-    <Template />
-
+    <!-- <Template /> -->
+    <StyleBinding />
   </div>
 </template>
 
@@ -14,7 +14,8 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import Home from './components/Home.vue'
 // import Composition from './components/Composition'
-import Template from './components/Template'
+// import Template from './components/Template'
+import StyleBinding from './components/ClassAndStyleBindings'
 
 export default {
   name: 'App',
@@ -22,7 +23,8 @@ export default {
     // HelloWorld,
     // Home,
     // Composition,
-    Template
+    // Template,
+    StyleBinding
   }
 }
 </script>
