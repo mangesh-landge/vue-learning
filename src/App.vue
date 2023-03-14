@@ -8,7 +8,8 @@
     <!-- <Template /> -->
     <!-- <StyleBinding /> -->
     <!-- <DataBinding /> -->
-    <Props />
+    <!-- <Props /> -->
+    <ChildToParent />
   </div>
 </template>
 
@@ -19,7 +20,8 @@
 // import Template from './components/Template'
 // import StyleBinding from './components/ClassAndStyleBindings'
 // import DataBinding from './components/DataBinding'
-import Props from './components/Props'
+// import Props from './components/Props'
+import ChildToParent from './components/ChildTOParent'
 export default {
   name: 'App',
   components: {
@@ -29,7 +31,8 @@ export default {
     // Template,
     // StyleBinding,
     // DataBinding,
-    Props
+    // Props,
+    ChildToParent
   }
 }
 </script>
