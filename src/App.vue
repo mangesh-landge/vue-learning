@@ -9,7 +9,8 @@
     <!-- <StyleBinding /> -->
     <!-- <DataBinding /> -->
     <!-- <Props /> -->
-    <ChildToParent />
+    <!-- <ChildToParent /> -->
+    <LifeCycleMethod />
   </div>
 </template>
 
@@ -21,7 +22,8 @@
 // import StyleBinding from './components/ClassAndStyleBindings'
 // import DataBinding from './components/DataBinding'
 // import Props from './components/Props'
-import ChildToParent from './components/ChildTOParent'
+// import ChildToParent from './components/ChildTOParent'
+import LifeCycleMethod from './components/LifeCycleMethods'
 export default {
   name: 'App',
   components: {
@@ -32,7 +34,8 @@ export default {
     // StyleBinding,
     // DataBinding,
     // Props,
-    ChildToParent
+    // ChildToParent,
+    LifeCycleMethod
   }
 }
 </script>
