@@ -7,7 +7,8 @@
     <!-- <Composition /> -->
     <!-- <Template /> -->
     <!-- <StyleBinding /> -->
-    <DataBinding />
+    <!-- <DataBinding /> -->
+    <Props />
   </div>
 </template>
 
@@ -17,7 +18,8 @@
 // import Composition from './components/Composition'
 // import Template from './components/Template'
 // import StyleBinding from './components/ClassAndStyleBindings'
-import DataBinding from './components/DataBinding'
+// import DataBinding from './components/DataBinding'
+import Props from './components/Props'
 export default {
   name: 'App',
   components: {
@@ -26,7 +28,8 @@ export default {
     // Composition,
     // Template,
     // StyleBinding,
-    DataBinding
+    // DataBinding,
+    Props
   }
 }
 </script>
