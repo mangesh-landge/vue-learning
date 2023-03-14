@@ -6,7 +6,8 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <Composition /> -->
     <!-- <Template /> -->
-    <StyleBinding />
+    <!-- <StyleBinding /> -->
+    <DataBinding />
   </div>
 </template>
 
@@ -15,8 +16,8 @@
 // import Home from './components/Home.vue'
 // import Composition from './components/Composition'
 // import Template from './components/Template'
-import StyleBinding from './components/ClassAndStyleBindings'
-
+// import StyleBinding from './components/ClassAndStyleBindings'
+import DataBinding from './components/DataBinding'
 export default {
   name: 'App',
   components: {
@@ -24,7 +25,8 @@ export default {
     // Home,
     // Composition,
     // Template,
-    StyleBinding
+    // StyleBinding,
+    DataBinding
   }
 }
 </script>
