@@ -1,0 +1,17 @@
+There are 8 life cylcles in Vue.
+
+1 beforCreate: when the component is yet to be created.
+
+2 created: afetr components are created, like when our data and events settles.
+
+3 beforeMount: call before HTML render
+
+4: Mounted: call after HTML renders
+
+5: beforeUpdate: calls just beforw the update of the component
+
+6: Updated: call ince the component gets updated
+
+7: beforeDestroy: call before DOM unmounts
+
+8: Destroyed: calls after destroy the component
