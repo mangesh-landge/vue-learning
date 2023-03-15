@@ -1,16 +1,19 @@
 <template>
   <div>
     <h1>API Calls</h1>
-    <GetData />
+    <!-- <GetData /> -->
+    <PosrRequest />
   </div>
 </template>
 
 <script>
-import GetData from './GET'
+// import GetData from './GET'
+import PosrRequest from './POST'
 export default{
   name: 'API',
   components: {
-    GetData,
+    // GetData,
+    PosrRequest
   }
 }
 </script>
