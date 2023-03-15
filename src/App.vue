@@ -13,7 +13,8 @@
     <!-- <LifeCycleMethod /> -->
     <!-- <ForFormData /> -->
     <!-- <GetFormData /> -->
-    <FormValidation />
+    <!-- <FormValidation /> -->
+    <FiltersComponent />
   </div>
 </template>
 
@@ -29,7 +30,8 @@
 // import LifeCycleMethod from './components/LifeCycleMethods'
 // import ForFormData from './components/FormWithCheckbox'
 // import GetFormData from './components/GetFormData'
-import FormValidation from './components/FormValidation'
+// import FormValidation from './components/FormValidation'
+import FiltersComponent from './components/Filters'
 export default {
   name: 'App',
   components: {
@@ -44,7 +46,8 @@ export default {
     // LifeCycleMethod,
     // ForFormData,
     // GetFormData,
-    FormValidation
+    // FormValidation,
+    FiltersComponent
   }
 }
 </script>
