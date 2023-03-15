@@ -2,18 +2,21 @@
   <div>
     <h1>API Calls</h1>
     <!-- <GetData /> -->
-    <PosrRequest />
+    <!-- <PosrRequest /> -->
+    <DeleteRequest />
   </div>
 </template>
 
 <script>
 // import GetData from './GET'
-import PosrRequest from './POST'
+// import PosrRequest from './POST'
+import DeleteRequest from './Delete'
 export default{
   name: 'API',
   components: {
     // GetData,
-    PosrRequest
+    // PosrRequest,
+    DeleteRequest
   }
 }
 </script>
