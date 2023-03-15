@@ -14,7 +14,8 @@
     <!-- <ForFormData /> -->
     <!-- <GetFormData /> -->
     <!-- <FormValidation /> -->
-    <FiltersComponent />
+    <!-- <FiltersComponent /> -->
+    <API />
   </div>
 </template>
 
@@ -31,7 +32,8 @@
 // import ForFormData from './components/FormWithCheckbox'
 // import GetFormData from './components/GetFormData'
 // import FormValidation from './components/FormValidation'
-import FiltersComponent from './components/Filters'
+// import FiltersComponent from './components/Filters'
+import API from './components/API'
 export default {
   name: 'App',
   components: {
@@ -47,7 +49,8 @@ export default {
     // ForFormData,
     // GetFormData,
     // FormValidation,
-    FiltersComponent
+    // FiltersComponent,
+    API
   }
 }
 </script>
