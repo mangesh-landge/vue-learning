@@ -12,7 +12,8 @@
     <!-- <ChildToParent /> -->
     <!-- <LifeCycleMethod /> -->
     <!-- <ForFormData /> -->
-    <GetFormData />
+    <!-- <GetFormData /> -->
+    <FormValidation />
   </div>
 </template>
 
@@ -27,7 +28,8 @@
 // import ChildToParent from './components/ChildTOParent'
 // import LifeCycleMethod from './components/LifeCycleMethods'
 // import ForFormData from './components/FormWithCheckbox'
-import GetFormData from './components/GetFormData'
+// import GetFormData from './components/GetFormData'
+import FormValidation from './components/FormValidation'
 export default {
   name: 'App',
   components: {
@@ -41,7 +43,8 @@ export default {
     // ChildToParent,
     // LifeCycleMethod,
     // ForFormData,
-    GetFormData
+    // GetFormData,
+    FormValidation
   }
 }
 </script>
