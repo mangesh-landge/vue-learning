@@ -2,7 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import PageOne from '../Pages/PageOne.vue';
 import PageTwo from '../Pages/PageTwo.vue';
-import Settings from '../Pages/Settings.vue'
+import Settings from '../Pages/Settings.vue';
+import UserDetails from '../Pages/User.vue';
 
 Vue.use(VueRouter);
 
@@ -23,6 +24,11 @@ export const router = new VueRouter({
       path: '/settings',
       name: 'Settings',
       component:   Settings
+    },
+    {
+      path: '/user/:id',
+      name: 'UserDetails',
+      component: UserDetails
     }
   ]
 })
