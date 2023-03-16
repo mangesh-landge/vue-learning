@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <Home /> -->
     <!-- <Home data="Mangesh is here" msg="Hi from Mangesh" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -15,7 +15,9 @@
     <!-- <GetFormData /> -->
     <!-- <FormValidation /> -->
     <!-- <FiltersComponent /> -->
-    <API />
+    <!-- <API /> -->
+    <!-- <Routing /> -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -33,7 +35,8 @@
 // import GetFormData from './components/GetFormData'
 // import FormValidation from './components/FormValidation'
 // import FiltersComponent from './components/Filters'
-import API from './components/API'
+// import API from './components/API'
+// import Routing from './components/Routing'
 export default {
   name: 'App',
   components: {
@@ -50,7 +53,8 @@ export default {
     // GetFormData,
     // FormValidation,
     // FiltersComponent,
-    API
+    // API,
+    // Routing
   }
 }
 </script>
