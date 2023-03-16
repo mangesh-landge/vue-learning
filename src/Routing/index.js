@@ -4,6 +4,7 @@ import PageOne from '../Pages/PageOne.vue';
 import PageTwo from '../Pages/PageTwo.vue';
 import Settings from '../Pages/Settings.vue';
 import UserDetails from '../Pages/User.vue';
+import ErrorPage from '../Pages/404page.vue'
 
 Vue.use(VueRouter);
 
@@ -29,6 +30,11 @@ export const router = new VueRouter({
       path: '/user/:id',
       name: 'UserDetails',
       component: UserDetails
+    },
+    {
+      path: '*',
+      name: '404ErrorPage',
+      component: ErrorPage
     }
   ]
 })
