@@ -16,9 +16,12 @@
     <!-- <FormValidation /> -->
     <!-- <FiltersComponent /> -->
     <!-- <API /> -->
+    
     <!-- <Routing /> -->
-    <Navbar />
-    <router-view></router-view>
+    <!-- <Navbar />
+    <router-view></router-view> -->
+
+    <DynamicComponent />
   </div>
 </template>
 
@@ -38,7 +41,8 @@
 // import FiltersComponent from './components/Filters'
 // import API from './components/API'
 // import Routing from './components/Routing'
-import Navbar from './components/Navbar'
+// import Navbar from './components/Navbar'
+import DynamicComponent from './components/DynamicComponent'
 export default {
   name: 'App',
   components: {
@@ -57,7 +61,8 @@ export default {
     // FiltersComponent,
     // API,
     // Routing,
-    Navbar
+    // Navbar,
+    DynamicComponent
   }
 }
 </script>
